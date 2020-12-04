@@ -1,0 +1,22 @@
+{
+  "name": "ice",
+  "version": "1.0.0",
+  "description": "minprogram wechat gulp less",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vant-weapp": "^0.5.28",
+    "wx-updata": "0.0.10"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-changed": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-rename": "^2.0.0"
+  }
+}

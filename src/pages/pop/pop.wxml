@@ -1,0 +1,7 @@
+<view>
+    <view  catchtap="onClickOpenCancelReason" wx:for="{{defaultList}}" wx:for-item="item" wx:key="{{item.key}}">{{item.txt}}</view>
+    <popupn  show="{{popupShow}}" bottom="{{popupBottom}}">
+        <import src="../../template/cancel-order-pop/cancel-order-pop.wxml"/>
+      <template is="cancelbox" data="{{popOrderNo: 'as3q35224234',popOrderTime:'fsidjo'}}"/>
+    </popupn>
+</view>

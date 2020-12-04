@@ -1,0 +1,6 @@
+<view  class="pop {{visible ? 'visible' : ''}}">
+  <view class="cover" catchtouchmove="true"     catchtap="close" disabled="true" animation="{{coverAnimation}}"/>
+  <view  catchtouchmove="true"     class="slot" animation="{{slotAnimation}}">
+    <slot/>
+  </view>
+</view>

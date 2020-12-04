@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "popupn": "../../components/popupn/popupn"
+      }
+}

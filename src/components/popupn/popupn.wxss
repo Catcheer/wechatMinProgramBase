@@ -1,0 +1,28 @@
+.pop {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.pop .cover {
+  z-index: 998;
+  position: fixed;
+  opacity: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.pop .slot {
+  z-index: 999;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: -999rpx;
+}
+.visible {
+  visibility: visible;
+}

@@ -1,0 +1,21 @@
+<view>
+    <view wx:for="{{defaultList}}" wx:for-item="item" wx:key="{{item.key}}">{{item.txt}}</view>
+    <view class="pop">
+        <view class="mark">
+            <view class="content">
+            <view class="operate">
+                <view class="cancel">取消</view>
+                <view class="ok">确定</view>
+            </view>
+                <view class>订单号：sd378982378</view>
+                <view>下单时间：2018-09-22 08:12:34</view>
+                    <view class="">
+                    <view>请输入取消原因</view>
+                        <textarea fixed="{{true}}" cursor-spacing="{{70}}">
+
+                        </textarea>
+                    </view>
+            </view>
+        </view>
+    </view>
+</view>
