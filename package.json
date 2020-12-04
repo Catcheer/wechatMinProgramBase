@@ -5,7 +5,10 @@
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "gulp"
+    "build:gulp": "gulp",
+    "start": "cross-env NODE_ENV=development npm run build:gulp",
+    "build:test": "cross-env NODE_ENV=test npm run build:gulp",
+    "build:prod": "cross-env NODE_ENV=production npm run build:gulp"
   },
   "author": "",
   "license": "ISC",
@@ -14,9 +17,11 @@
     "wx-updata": "0.0.10"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "gulp": "^4.0.2",
     "gulp-changed": "^4.0.2",
     "gulp-clean": "^0.4.0",
+    "gulp-less": "^4.0.1",
     "gulp-rename": "^2.0.0"
   }
 }

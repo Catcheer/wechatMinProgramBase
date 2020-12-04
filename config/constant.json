@@ -1,0 +1,17 @@
+{
+    "FTP": "FTP",
+    "USERINFO": "USERINFO",
+    "TOKEN" :"TOKEN",
+    "dev": {
+        "USERCENTER": "http:usercenter.dev.com",
+        "AENGTCENTER": "http:agentcenter.dev.com"
+    },
+    "test": {
+        "USERCENTER": "http:usercenter.test.com",
+        "AENGTCENTER": "http:agentcenter.test.com"
+    },
+    "prod": {
+        "USERCENTER": "http:usercenter.prod.com",
+        "AENGTCENTER": "http:agentcenter.prod.com"
+    }
+}
